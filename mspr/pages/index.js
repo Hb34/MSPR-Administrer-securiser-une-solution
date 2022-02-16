@@ -34,6 +34,11 @@ export default function Home() {
           Résilience 34
         </Grid>
       </Grid>
+      <Grid container item xs={8} className={styles.presentation}>
+        <Grid item xs={12}>
+        La clinique LE CHATELET est un Centre de Rééducation et de Réadaptation Fonctionnelles, Clinique de Convalescence Spécialisée, agréée par le ministère de la Santé et des Affaires Sociales. Elle est conventionnée avec les différents organismes sociaux (toutes les caisses d’Assurances Maladie et les mutuelles). Sa vocation : la rééducation précoce en traumatologie, chirurgie orthopédique et réparatrice, la réadaptation en rhumatologie, la convalescence spécialisée post-opératoire.
+        </Grid>
+      </Grid>
     </div>
   )
 }
