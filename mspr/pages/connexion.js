@@ -15,9 +15,9 @@ export default function Connexion() {
                         Veuillez vous connecter pour accéder au réseau de la clinique
                     </h2>
                     <form>
-                        <input id="name" type="text" placeholder="nom" required />
-                        <br />
                         <input id="email" type="email" placeholder="email" required />
+                        <br />
+                        <input id="password" type="password" placeholder="password" required />
                         <br />
                         <button type="submit">Connexion</button>
                     </form>
